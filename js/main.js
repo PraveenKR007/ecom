@@ -1,0 +1,23 @@
+$(document).ready(function(){
+	$.ajax({
+		type:'GET',
+		url:'./module/getProduct_mensJeans.php',
+		beforeSend:function(){
+			//$('#disp_jeans_container').addClass('');
+		},
+		success:function(response){
+			$('#disp_jeans').html(response);
+		}
+	});
+	$.ajax({
+		type:'GET',
+		url:'./module/getProduct_shoes.php',
+		beforeSend:function(){
+			//$('#disp_jeans_container').addClass('');
+		},
+		success:function(response){
+			console.log(response);
+			$('#disp_shoes').html(response);
+		}
+	});
+});

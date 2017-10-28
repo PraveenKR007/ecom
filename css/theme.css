@@ -1,0 +1,220 @@
+/*
+developed with <3
+color 
+Indian yellow:#DEA54B;
+CELESTIAL BLUE :#5398BE;
+d741a7-3a1772-5398be-f2cd5d-dea54b
+054a91-3e7cb1-81a4cd-dbe4ee-f17300
+*/
+.login-field{
+  max-width: 100%;
+}
+/*
+.navbar{
+    border: none;
+    background: radial-gradient(ellipse at 70% 70%,#ee583f 8%,#d92d77 42%,#bd3381 58%);
+}
+*/
+@media (min-width: 768px){
+    .navbar {
+    border-radius: 0px !important;
+}  
+}
+
+.btn-custom{
+	outline: none;
+	background: 0 0;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    position: relative;
+    height: 36px;
+    margin: 0;
+    min-width: 64px;
+    padding: 0 16px;
+    display: inline-block;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    overflow: hidden;
+    will-change: box-shadow;
+    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+}
+.btn-raised{
+	background: rgba(158,158,158,.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.btn-green{
+    background: #17aa1c;
+    color: #fff;
+}
+.btn-pink{
+    background: #ff5252!important;
+    color: #fff;
+}
+.btn-pink:hover{background: #ff5252;color:#fff;} .btn-pink:active{background: #ff5252;}
+.btn-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+
+    font-weight: 300;
+
+    color: #07bc4c;
+    border-radius: 3px;
+    transition: box-shadow .18s ease-out, background .18s ease-out, color .18s ease-out;
+}
+.link:hover , .link:focus,.link:visited{
+  text-decoration: none !important;
+  color:inherit;
+}
+.btn-link:hover{
+    text-decoration: none;
+    color: #07bc4c;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.06), 0 2px 5px 0 rgba(0,0,0,0.2);
+}
+.btn-blue{
+	background: #3f51b5;
+    color: #fff;
+}
+.btn-green1{
+    color: #FFFFFF;
+    background-color: #08c65b;
+}
+.btn-green:active{background: #17aa1c;}
+.btn-green:hover{background: #17aa1c;}
+.btn-blue:hover{
+	background: #3f51b5;
+}
+.btn-blue:active{
+background: #3f51b5;
+	}
+  .btn-blue1{background: #4e8ef7;color: #ffffff;} .btn-blue1:hover{background: #4e8ef7;} .btn-blue1:active{background: #4e8ef7;}
+  .btn-blue1:visited{outline: none;}
+  .loader-login{
+    max-width: 80px;
+
+  }
+.blue-background{
+    background: #4e8ef7;
+    color:#ffffff;
+    line-height:3.5em;
+    
+}
+.text-uppercase {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.feature-heading .heading-border {
+    border-bottom: 2px solid black;
+
+    display: inline-block;
+}
+.list-group .list-group-item img{
+    max-width: 100% !important;
+}
+
+.custom-card{    
+   z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;}
+.margin-zero{
+    margin: 0px !important;
+}
+.forget-psd-container {
+    margin-top: 15.5%;
+}
+.margin-top-21{
+    margin-top: -21px !important;
+}
+.card{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.card-1{
+        border: 1px solid #ccc;
+    
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+}
+.card-1:hover,.card-1:focus{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+    .product_disp_home{
+       width: 100%;
+        max-height: 260px;
+    }
+    #disp_jeans  .col-lg-3{
+        padding: 0px !important;
+    }
+    #home_disp_jeans_page{
+        margin: -10px 0px !important;
+    }
+    /*   */
+    
+        .pre-cost{text-decoration: line-through; color: #a5a5a5;}
+        .space-ten{padding: 10px 0;}
+        #snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+.img-sx{
+    max-width: 28px;
+}
+.small-size{
+    max-width: 80px;
+}

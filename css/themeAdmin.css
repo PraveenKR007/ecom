@@ -1,0 +1,23 @@
+/*
+Admin css
+*/
+@media (min-width: 768px){
+	.navbar{
+		border-radius: 0px !important;
+	}
+}
+.link:hover , .link:active, .link:after{
+text-decoration: none !important;
+}
+.margin-top-40{
+	margin-top: 40px;
+}
+.product-page-img{
+	max-height: 28px !important;
+}
+.pagination li a{
+	cursor:pointer;
+}
+.brand_listimg{
+	max-width: 40px !important;
+}
